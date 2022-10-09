@@ -1,0 +1,81 @@
+.quiz
+    padding-top: 60px
+    background: url(../img/quiz/bg.webp) no-repeat right center
+    &__text
+        font-weight: 400
+        font-size: 15px
+        line-height: 120%
+        padding-left: 10px
+        max-width: 382px
+    &__input-group
+        width: 100%
+        max-width: 420px
+        margin: 10px
+    &__container
+        background: url(../img/quiz/img1.webp) no-repeat right bottom/contain
+        padding-bottom: 54px
+    &__input
+        width: 100%
+        height: 60px
+        padding: 10px 30px
+        font-weight: 400
+        font-size: 18px
+        line-height: 120%
+        color: #BDBDBD
+        border: 1px solid #EBEBEB
+        border-radius: 5px
+    &__radio
+        width: 100%
+        max-width: 420px
+        height: 60px
+        position: relative
+        display: flex
+        align-items: center
+        cursor: pointer
+        margin: 10px
+        &__input
+            display: none
+            &:checked + .quiz__radio__text
+                color: #0065B1
+                background: #EBEBEB
+        &__text
+            font-weight: normal
+            font-size: 18px
+            line-height: 120%
+            color: #0E0E0E
+            position: relative
+            position: absolute
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            background: #fff
+            display: flex
+            align-items: center
+            padding: 10px 30px
+            border: 1px solid #EBEBEB
+            border-radius: 5px
+    &__buttons
+        padding-left: 10px
+    &__button
+        width: 100%
+        max-width: 200px
+        &:first-child
+            margin-right: 20px
+    &__title
+        max-width: 770px
+        margin: 0
+        margin-bottom: 50px
+        padding-left: 10px
+    &__box
+        min-height: 510px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__block
+        margin-bottom: 20px
+    &__wrap
+        display: flex
+        flex-wrap: wrap
+        width: 100%
+        max-width: 900px
